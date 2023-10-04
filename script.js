@@ -1,6 +1,8 @@
-var carousel = document.getElementById('carousel');
-carousel.addEventListener("click", carouselClick, false);
+var carousel = document.getElementById("carousel")
 
-function carouselClick() {
-    console.log("Click !");
+carousel.onmouseenter = enterMouse();
+carousel.onmouseleave = leaveMouse();
+
+function enterMouse(){
+    document.getElementById('carousel').style.cursor = 'pointer';
 }
