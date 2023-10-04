@@ -1,6 +1,3 @@
-
-
-function carouselImgClick() {
-    imgFullURL = document.querySelector('img').src;
-    console.log(imgFullURL);
+function carouselClick() {
+    console.log("Click !");
 }
